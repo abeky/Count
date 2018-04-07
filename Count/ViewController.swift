@@ -9,17 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var TextField: UITextField!
+    
+    var number: Int = 0
+    @IBOutlet var label1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        label.text = "Hello World"
+      }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
+    @IBAction func plus() {
+        number = number + 1
+        label1.text = String(number)
+    }
+    
 
 
+    @IBAction func ButtonTapped(_ sender: Any) {
+        let text: String = TextField.text!
+        label.text = text
+    }
 }
 

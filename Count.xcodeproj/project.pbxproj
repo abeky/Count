@@ -14,6 +14,8 @@
 		62B32443204A894A00C1277E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B32441204A894A00C1277E /* LaunchScreen.storyboard */; };
 		62B3244E204A894B00C1277E /* CountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B3244D204A894B00C1277E /* CountTests.swift */; };
 		62B32459204A894B00C1277E /* CountUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B32458204A894B00C1277E /* CountUITests.swift */; };
+		62B32467204A8C8100C1277E /* sakura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62B32466204A8C8000C1277E /* sakura.jpg */; };
+		62C419F22077985800A69AD4 /* セブ島.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 62C419F12077985800A69AD4 /* セブ島.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		62B32454204A894B00C1277E /* CountUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B32458204A894B00C1277E /* CountUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUITests.swift; sourceTree = "<group>"; };
 		62B3245A204A894B00C1277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B32466204A8C8000C1277E /* sakura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sakura.jpg; path = ../../../Downloads/sakura.jpg; sourceTree = "<group>"; };
+		62C419F12077985800A69AD4 /* セブ島.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "セブ島.jpg"; path = "../../セブ島.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				62B32438204A894A00C1277E /* AppDelegate.swift */,
 				62B3243A204A894A00C1277E /* ViewController.swift */,
+				62B32466204A8C8000C1277E /* sakura.jpg */,
+				62C419F12077985800A69AD4 /* セブ島.jpg */,
 				62B3243C204A894A00C1277E /* Main.storyboard */,
 				62B3243F204A894A00C1277E /* Assets.xcassets */,
 				62B32441204A894A00C1277E /* LaunchScreen.storyboard */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62B32443204A894A00C1277E /* LaunchScreen.storyboard in Resources */,
+				62C419F22077985800A69AD4 /* セブ島.jpg in Resources */,
 				62B32440204A894A00C1277E /* Assets.xcassets in Resources */,
 				62B3243E204A894A00C1277E /* Main.storyboard in Resources */,
+				62B32467204A8C8100C1277E /* sakura.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
